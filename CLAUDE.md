@@ -9,7 +9,7 @@ This is a **private campaign repo**: email documents and audience definitions fo
 - `campaigns/*.json`: one email document each. The person may have one open in the editor (file sync), so re-read a file before each change and write it in one go.
 - `iterable/fields.md`: the Iterable user fields. A person writes it. Write facet conditions only from what it says, and ask when it doesn't say.
 - `iterable/facets.json`: the approved facet library. Change it only with the person's explicit approval, following the settling procedure in `agents.md`.
-- `out/`: built HTML (`<name>.html`, `<name>.iterable.html`, previews). It's tracked by git, so commit it with the document it was built from, and rebuild it after any change to that document.
+- `out/`: built HTML (`<name>.html`, `<name>.iterable.html`, previews). It's tracked by git, so commit it with the document it was built from, and rebuild it after any change to that document. `out/index.html` links to every build; add a section for each new campaign.
 
 ## How the pieces fit
 
@@ -32,3 +32,9 @@ node ../emails/render/preview.js campaigns/<file>.json --as <facet> > out/<name>
 - Never settle a ruleset, add a facet or approve one without the person.
 - Iterable syntax is written only when converting markers into `out/<name>.iterable.html`, never into documents.
 - Pushing to Iterable through its API isn't set up yet. Hand the person the `out/…iterable.html` file to paste into Iterable, and say which facets it uses.
+- Whenever you add a file to `out/` (a build, an `.iterable.html` or a preview), update `out/index.html` in the same commit:
+  - Each campaign has one section: `<h2>Campaign name <small>(file prefix)</small></h2>` followed by a `<ul>`. Copy the existing section for a new campaign.
+  - Add one `<li>` per file, with a relative `href` (just the file name) and a short `<small>` note on what it is (e.g. "with audience markers", "paste into Iterable", "preview as `region.us`").
+  - Keep the link text short and in this order: email HTML, Iterable HTML, previews.
+  - When a file is renamed or deleted, fix or remove its link. Every link in the index must point to a file that exists.
+  - Don't open the index to judge it; check the links with `grep -o 'href="[^"]*"' out/index.html`, and confirm each file exists.
