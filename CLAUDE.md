@@ -11,6 +11,13 @@ This is a **private campaign repo**: email documents and audience definitions fo
 - `iterable/facets.json`: the approved facet library. Change it only with the person's explicit approval, following the settling procedure in `agents.md`.
 - `out/`: built HTML. It's git-ignored; never commit it.
 
+## How the pieces fit
+
+- A document is `{version, name, subject, preheader, theme, nextId, blocks[]}`. Blocks hold content only (styling comes from `theme`). Audience is per block: `ruleset` (free text while drafting, then facet ids joined with ` + `, e.g. `region.us-ca-gb + subscription.not-paying`), `switch` (adjacent blocks sharing a value; first matching case wins, a last case with no `ruleset` is the fallback) and `hidden`. New block id is `"b" + nextId`, then bump `nextId`; ids are never reused.
+- `iterable/facets.json` is keyed `category → name` (facet id `category.name`). Each facet has `description`, `fields` (must be fields in `iterable/fields.md`), an Iterable `condition`, `approved` date and `examples`. When `fields.md` changes, re-check every facet whose `fields` include the changed field.
+- `check.js` warns `ruleset_unsettled` for free-text rulesets; that's normal while drafting.
+- Don't read rendered HTML to judge a change; rely on `check.js` and leave visual judgement to the person. `README.md` describes how to turn this example repo into a real private one.
+
 ## Commands
 
 ```sh
