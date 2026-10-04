@@ -32,3 +32,9 @@ node ../emails/render/preview.js campaigns/<file>.json --as <facet> > out/<name>
 - Never settle a ruleset, add a facet or approve one without the person.
 - Iterable syntax is written only when converting markers into `out/<name>.iterable.html`, never into documents.
 - Pushing to Iterable through its API isn't set up yet. Hand the person the `out/…iterable.html` file to paste into Iterable, and say which facets it uses.
+- Whenever you add a file to `out/` (a build, an `.iterable.html` or a preview), update `out/index.html` in the same commit:
+  - Each campaign has one section: `<h2>Campaign name <small>(file prefix)</small></h2>` followed by a `<ul>`. Copy the existing section for a new campaign.
+  - Add one `<li>` per file, with a relative `href` (just the file name) and a short `<small>` note on what it is (e.g. "with audience markers", "paste into Iterable", "preview as `region.us`").
+  - Keep the link text short and in this order: email HTML, Iterable HTML, previews.
+  - When a file is renamed or deleted, fix or remove its link. Every link in the index must point to a file that exists.
+  - Don't open the index to judge it; check the links with `grep -o 'href="[^"]*"' out/index.html`, and confirm each file exists.
