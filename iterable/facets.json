@@ -6,6 +6,20 @@
       "condition": { "test": "ifMatchesRegexStr country \"^(US|CA|GB)$\"" },
       "approved": "2026-09-28",
       "examples": ["users in US, CA, GB", "US/Canada/UK folks"]
+    },
+    "us": {
+      "description": "Country is US.",
+      "fields": ["country"],
+      "condition": { "test": "ifEq country \"US\"" },
+      "approved": "2026-10-04",
+      "examples": ["US only"]
+    },
+    "ca": {
+      "description": "Country is Canada.",
+      "fields": ["country"],
+      "condition": { "test": "ifEq country \"CA\"" },
+      "approved": "2026-10-04",
+      "examples": ["Canada only"]
     }
   },
   "subscription": {

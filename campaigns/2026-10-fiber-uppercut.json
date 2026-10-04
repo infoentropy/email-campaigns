@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "name": "Fiber Uppercut — skeleton",
+  "name": "Fiber Uppercut — launch (example)",
   "subject": "Meet Fiber Uppercut",
-  "preheader": "[INSERT: one line on the benefit you're allowed to claim]",
+  "preheader": "Knock out the fiber gap. One scoop a day.",
   "theme": "spring",
   "nextId": 8,
   "blocks": [
@@ -10,10 +10,10 @@
       "id": "b1",
       "blockType": "article",
       "data": {
-        "headline": "Fiber Uppercut is here",
+        "headline": "Fiber Uppercut is here: land the knockout for your gut",
         "link": "https://www.example.com/fiber-uppercut",
         "image": "https://images.example.com/fiber-uppercut/hero.jpg",
-        "image_alt": "[INSERT: describe the hero image]",
+        "image_alt": "A boxing glove next to a glass of Fiber Uppercut stirred into water",
         "image_width": 1200,
         "image_height": 630,
         "variant": "primary"
@@ -23,12 +23,12 @@
       "id": "b2",
       "blockType": "image_with_text",
       "switch": "s1",
-      "ruleset": "US only",
+      "ruleset": "region.us",
       "data": {
-        "heading": "[INSERT: benefit headline]",
-        "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]\n\nFiber Uppercut is $10.",
+        "heading": "A better round for your daily fiber",
+        "body": "Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done. Most people find it easiest as part of their morning routine.\n\nTry it for $10.",
         "image": "https://images.example.com/fiber-uppercut/product.jpg",
-        "image_alt": "[INSERT: describe the product image]",
+        "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
         "image_width": 800,
         "image_height": 500
       }
@@ -37,12 +37,12 @@
       "id": "b6",
       "blockType": "image_with_text",
       "switch": "s1",
-      "ruleset": "Canada only",
+      "ruleset": "region.ca",
       "data": {
-        "heading": "[INSERT: benefit headline]",
-        "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]\n\nFiber Uppercut is $12.",
+        "heading": "A better round for your daily fiber",
+        "body": "Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done. Most people find it easiest as part of their morning routine.\n\nTry it for $12 CAD.",
         "image": "https://images.example.com/fiber-uppercut/product.jpg",
-        "image_alt": "[INSERT: describe the product image]",
+        "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
         "image_width": 800,
         "image_height": 500
       }
@@ -52,10 +52,10 @@
       "blockType": "image_with_text",
       "switch": "s1",
       "data": {
-        "heading": "[INSERT: benefit headline]",
-        "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]",
+        "heading": "A better round for your daily fiber",
+        "body": "Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done. Most people find it easiest as part of their morning routine.\n\nTry it today.",
         "image": "https://images.example.com/fiber-uppercut/product.jpg",
-        "image_alt": "[INSERT: describe the product image]",
+        "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
         "image_width": 800,
         "image_height": 500
       }
@@ -71,7 +71,7 @@
       "id": "b4",
       "blockType": "button",
       "data": {
-        "text": "[INSERT: CTA, e.g. Shop Fiber Uppercut]",
+        "text": "Shop Fiber Uppercut",
         "link": "https://www.example.com/fiber-uppercut",
         "variant": "primary"
       }
