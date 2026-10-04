@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "name": "Fiber Uppercut — skeleton",
+  "subject": "Meet Fiber Uppercut",
+  "preheader": "[INSERT: one line on the benefit you're allowed to claim]",
+  "theme": "spring",
+  "nextId": 6,
+  "blocks": [
+    {
+      "id": "b1",
+      "blockType": "article",
+      "data": {
+        "headline": "Fiber Uppercut is here",
+        "link": "https://www.example.com/fiber-uppercut",
+        "image": "https://images.example.com/fiber-uppercut/hero.jpg",
+        "image_alt": "[INSERT: describe the hero image]",
+        "image_width": 1200,
+        "image_height": 630,
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b2",
+      "blockType": "image_with_text",
+      "data": {
+        "heading": "[INSERT: benefit headline]",
+        "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]",
+        "image": "https://images.example.com/fiber-uppercut/product.jpg",
+        "image_alt": "[INSERT: describe the product image]",
+        "image_width": 800,
+        "image_height": 500
+      }
+    },
+    {
+      "id": "b3",
+      "blockType": "divider",
+      "data": {
+        "variant": "secondary"
+      }
+    },
+    {
+      "id": "b4",
+      "blockType": "button",
+      "data": {
+        "text": "[INSERT: CTA, e.g. Shop Fiber Uppercut]",
+        "link": "https://www.example.com/fiber-uppercut",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b5",
+      "blockType": "article",
+      "hidden": true,
+      "data": {
+        "headline": "",
+        "link": "",
+        "image": "",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "variant": "secondary"
+      }
+    }
+  ]
+}
