@@ -4,7 +4,7 @@
   "subject": "Meet Fiber Uppercut",
   "preheader": "[INSERT: one line on the benefit you're allowed to claim]",
   "theme": "spring",
-  "nextId": 6,
+  "nextId": 8,
   "blocks": [
     {
       "id": "b1",
@@ -22,6 +22,35 @@
     {
       "id": "b2",
       "blockType": "image_with_text",
+      "switch": "s1",
+      "ruleset": "US only",
+      "data": {
+        "heading": "[INSERT: benefit headline]",
+        "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]\n\nFiber Uppercut is $10.",
+        "image": "https://images.example.com/fiber-uppercut/product.jpg",
+        "image_alt": "[INSERT: describe the product image]",
+        "image_width": 800,
+        "image_height": 500
+      }
+    },
+    {
+      "id": "b6",
+      "blockType": "image_with_text",
+      "switch": "s1",
+      "ruleset": "Canada only",
+      "data": {
+        "heading": "[INSERT: benefit headline]",
+        "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]\n\nFiber Uppercut is $12.",
+        "image": "https://images.example.com/fiber-uppercut/product.jpg",
+        "image_alt": "[INSERT: describe the product image]",
+        "image_width": 800,
+        "image_height": 500
+      }
+    },
+    {
+      "id": "b7",
+      "blockType": "image_with_text",
+      "switch": "s1",
       "data": {
         "heading": "[INSERT: benefit headline]",
         "body": "[INSERT: what Fiber Uppercut is and the approved claim, 1-2 short sentences]\n\n[INSERT: how to take it: serving size, flavor, type of fiber]",
