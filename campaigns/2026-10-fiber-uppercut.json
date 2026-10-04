@@ -12,10 +12,10 @@
       "data": {
         "headline": "Fiber Uppercut is here: land the knockout for your gut",
         "link": "https://www.example.com/fiber-uppercut",
-        "image": "https://images.example.com/fiber-uppercut/hero.jpg",
+        "image": "https://loremflickr.com/320/240?random=1",
         "image_alt": "A boxing glove next to a glass of Fiber Uppercut stirred into water",
-        "image_width": 1200,
-        "image_height": 630,
+        "image_width": 320,
+        "image_height": 240,
         "variant": "primary"
       }
     },
@@ -27,10 +27,10 @@
       "data": {
         "heading": "A better round for your daily fiber",
         "body": "Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done. Most people find it easiest as part of their morning routine.\n\nTry it for $10.",
-        "image": "https://images.example.com/fiber-uppercut/product.jpg",
+        "image": "https://loremflickr.com/320/240?random=2",
         "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
-        "image_width": 800,
-        "image_height": 500
+        "image_width": 320,
+        "image_height": 240
       }
     },
     {
@@ -41,10 +41,10 @@
       "data": {
         "heading": "A better round for your daily fiber",
         "body": "Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done. Most people find it easiest as part of their morning routine.\n\nTry it for $12 CAD.",
-        "image": "https://images.example.com/fiber-uppercut/product.jpg",
+        "image": "https://loremflickr.com/320/240?random=2",
         "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
-        "image_width": 800,
-        "image_height": 500
+        "image_width": 320,
+        "image_height": 240
       }
     },
     {
@@ -54,10 +54,10 @@
       "data": {
         "heading": "A better round for your daily fiber",
         "body": "Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done. Most people find it easiest as part of their morning routine.\n\nTry it for $5 USD.",
-        "image": "https://images.example.com/fiber-uppercut/product.jpg",
+        "image": "https://loremflickr.com/320/240?random=2",
         "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
-        "image_width": 800,
-        "image_height": 500
+        "image_width": 320,
+        "image_height": 240
       }
     },
     {
