@@ -9,7 +9,7 @@ This is a **private campaign repo**: email documents and audience definitions fo
 - `campaigns/*.json`: one email document each. The person may have one open in the editor (file sync), so re-read a file before each change and write it in one go.
 - `iterable/fields.md`: the Iterable user fields. A person writes it. Write facet conditions only from what it says, and ask when it doesn't say.
 - `iterable/facets.json`: the approved facet library. Change it only with the person's explicit approval, following the settling procedure in `agents.md`.
-- `out/`: built HTML (`<name>.html`, `<name>.iterable.html`, previews). It's tracked by git, so commit it with the document it was built from, and rebuild it after any change to that document.
+- `out/`: built HTML (`<name>.html`, `<name>.iterable.html`, previews). It's tracked by git, so commit it with the document it was built from, and rebuild it after any change to that document. `out/index.html` links to every build; add a section for each new campaign.
 
 ## How the pieces fit
 
