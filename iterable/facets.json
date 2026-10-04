@@ -1,0 +1,36 @@
+{
+  "region": {
+    "us-ca-gb": {
+      "description": "Country is US, Canada or the UK.",
+      "fields": ["country"],
+      "condition": { "test": "ifMatchesRegexStr country \"^(US|CA|GB)$\"" },
+      "approved": "2026-09-28",
+      "examples": ["users in US, CA, GB", "US/Canada/UK folks"]
+    }
+  },
+  "subscription": {
+    "not-paying": {
+      "description": "Subscription status is anything but paying, including empty.",
+      "fields": ["subscriptionStatus"],
+      "condition": { "test": "ifEq subscriptionStatus \"paying\"", "negate": true },
+      "approved": "2026-09-28",
+      "examples": ["not a paying subscriber", "haven't paid yet"]
+    },
+    "paying": {
+      "description": "Subscription status is paying.",
+      "fields": ["subscriptionStatus"],
+      "condition": { "test": "ifEq subscriptionStatus \"paying\"" },
+      "approved": "2026-09-28",
+      "examples": ["paying subscribers", "current members"]
+    }
+  },
+  "behavior": {
+    "sleep-story-30d": {
+      "description": "Played a Sleep Story in the last 30 days.",
+      "fields": ["playedSleepStory30d"],
+      "condition": { "test": "ifEq playedSleepStory30d true" },
+      "approved": "2026-09-28",
+      "examples": ["recent sleep story listeners", "people who listened this month"]
+    }
+  }
+}

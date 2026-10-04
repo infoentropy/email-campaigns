@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "name": "Sleep Stories — October (example)",
+  "subject": "Three new Sleep Stories for this week",
+  "preheader": "Narrated by voices you'll actually drift off to",
+  "theme": "sleep",
+  "nextId": 9,
+  "blocks": [
+    {
+      "id": "b1",
+      "blockType": "content_feature_header",
+      "data": {
+        "heading": "New This Week",
+        "feature_type": "sleep"
+      }
+    },
+    {
+      "id": "b2",
+      "blockType": "article",
+      "data": {
+        "headline": "A Slow Train Through the Alps",
+        "link": "https://www.example.com/sleep/slow-train",
+        "image": "https://images.example.com/sleep/alps.jpg",
+        "image_alt": "Night train winding along a moonlit mountain pass",
+        "image_width": 1200,
+        "image_height": 630,
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b3",
+      "blockType": "divider",
+      "data": {
+        "variant": "secondary"
+      }
+    },
+    {
+      "id": "b4",
+      "blockType": "image_with_text",
+      "ruleset": "behavior.sleep-story-30d",
+      "data": {
+        "heading": "Picking up where you left off",
+        "body": "Your last story is waiting.\n\nIt's the one with the lighthouse.",
+        "image": "https://images.example.com/sleep/lighthouse.jpg",
+        "image_alt": "A lighthouse beam sweeping over calm water at dusk",
+        "image_width": 800,
+        "image_height": 500
+      }
+    },
+    {
+      "id": "b5",
+      "blockType": "button",
+      "switch": "s1",
+      "ruleset": "region.us-ca-gb + subscription.not-paying",
+      "data": {
+        "text": "Start your free trial",
+        "link": "https://www.example.com/trial",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b6",
+      "blockType": "button",
+      "switch": "s1",
+      "ruleset": "subscription.paying",
+      "data": {
+        "text": "Open tonight's story",
+        "link": "https://www.example.com/sleep",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b7",
+      "blockType": "button",
+      "switch": "s1",
+      "data": {
+        "text": "Explore Sleep Stories",
+        "link": "https://www.example.com/sleep",
+        "variant": "secondary"
+      }
+    },
+    {
+      "id": "b8",
+      "blockType": "article",
+      "hidden": true,
+      "data": {
+        "headline": "",
+        "link": "",
+        "image": "",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "variant": "secondary"
+      }
+    }
+  ]
+}
