@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "name": "Fiber Uppercut — Jai's birthday (example)",
+  "subject": "It's Jai's birthday! Celebrate with Fiber Uppercut",
+  "preheader": "Jai the black lab turns another year older on November 15.",
+  "theme": "spring",
+  "nextId": 8,
+  "blocks": [
+    {
+      "id": "b1",
+      "blockType": "article",
+      "data": {
+        "headline": "Happy birthday, Jai!",
+        "link": "https://www.example.com/fiber-uppercut",
+        "image": "https://loremflickr.com/320/240?random=3",
+        "image_alt": "Jai, a happy black lab, wearing a party hat",
+        "image_width": 320,
+        "image_height": 240,
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b2",
+      "blockType": "image_with_text",
+      "switch": "s1",
+      "ruleset": "region.us",
+      "data": {
+        "heading": "Join the party",
+        "body": "Jai the black lab turns another year older on November 15, and we're celebrating with the best treat we know: a happy gut. Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done.\n\nTry it for $10.",
+        "image": "https://loremflickr.com/320/240?random=2",
+        "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
+        "image_width": 320,
+        "image_height": 240
+      }
+    },
+    {
+      "id": "b3",
+      "blockType": "image_with_text",
+      "switch": "s1",
+      "ruleset": "region.ca",
+      "data": {
+        "heading": "Join the party",
+        "body": "Jai the black lab turns another year older on November 15, and we're celebrating with the best treat we know: a happy gut. Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done.\n\nTry it for $12 CAD.",
+        "image": "https://loremflickr.com/320/240?random=2",
+        "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
+        "image_width": 320,
+        "image_height": 240
+      }
+    },
+    {
+      "id": "b4",
+      "blockType": "image_with_text",
+      "switch": "s1",
+      "data": {
+        "heading": "Join the party",
+        "body": "Jai the black lab turns another year older on November 15, and we're celebrating with the best treat we know: a happy gut. Fiber Uppercut is a once-a-day powder that mixes into water, smoothies or coffee in seconds. Citrus-peach flavor, no grit, no gluten.\n\nMix one scoop with 8 oz of liquid. Stir, sip, done.\n\nTry it for $5 USD.",
+        "image": "https://loremflickr.com/320/240?random=2",
+        "image_alt": "A tub of Fiber Uppercut with a scoop and a glass of water",
+        "image_width": 320,
+        "image_height": 240
+      }
+    },
+    {
+      "id": "b5",
+      "blockType": "divider",
+      "data": {
+        "variant": "secondary"
+      }
+    },
+    {
+      "id": "b6",
+      "blockType": "button",
+      "data": {
+        "text": "Celebrate with Jai",
+        "link": "https://www.example.com/fiber-uppercut",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "b7",
+      "blockType": "article",
+      "hidden": true,
+      "data": {
+        "headline": "",
+        "link": "",
+        "image": "",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "variant": "secondary"
+      }
+    }
+  ]
+}
