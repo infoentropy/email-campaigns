@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 // Idempotent build: renders every campaigns/*.json into out/ when it is pending.
+// Output layout: out/<name>.html (neutral markers), out/iterable/<name>.html (Iterable).
+// Another platform (e.g. SendGrid) gets its own out/<platform>/ directory.
 //   node scripts/build.mjs          build pending campaigns, update out/.manifest.json and out/index.html
 //   node scripts/build.mjs --check  build nothing; exit 1 if anything is pending or fails
 // A campaign is pending when an output file is missing or its source hash, the facet
@@ -81,7 +83,7 @@ for (const file of readdirSync('campaigns').filter((f) => f.endsWith('.json')).s
   const src = readFileSync(`campaigns/${file}`, 'utf8');
   const want = { source_sha256: sha(src), facets_sha256: sha(facetsText), tool_commit: toolCommit };
   const have = manifest[name];
-  const outputs = [`out/${name}.html`, `out/${name}.iterable.html`];
+  const outputs = [`out/${name}.html`, `out/iterable/${name}.html`];
   if (have && Object.entries(want).every(([k, v]) => have[k] === v) && outputs.every(existsSync)) continue;
   pending.push(name);
   if (check) continue;
@@ -93,7 +95,7 @@ for (const file of readdirSync('campaigns').filter((f) => f.endsWith('.json')).s
     const unsettled = issues.filter((i) => i.code === 'ruleset_unsettled');
     if (unsettled.length) throw new Error(`unsettled rulesets in blocks ${unsettled.map((i) => i.block).join(', ')}`);
     const iterable = toIterable(html);
-    mkdirSync('out', { recursive: true });
+    mkdirSync('out/iterable', { recursive: true });
     writeFileSync(outputs[0], html);
     writeFileSync(outputs[1], iterable);
     manifest[name] = want;
@@ -114,7 +116,7 @@ function addToIndex(name, title) {
   const h = title.replace(/\s*\(example\)\s*$/, '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
   const sec = `<h2>${h} <small>(${name})</small></h2>\n<ul>\n` +
     `  <li><a href="${name}.html">Email HTML</a> <small>with audience markers</small></li>\n` +
-    `  <li><a href="${name}.iterable.html">Iterable HTML</a> <small>paste into Iterable</small></li>\n</ul>\n`;
+    `  <li><a href="iterable/${name}.html">Iterable HTML</a> <small>paste into Iterable</small></li>\n</ul>\n`;
   writeFileSync(p, idx.replace('</body>', sec + '</body>'));
 }
 

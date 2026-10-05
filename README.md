@@ -53,7 +53,7 @@ In Chrome or Edge, open the editor at <https://infoentropy.github.io/emails/auth
 1. **Draft.** Ask Claude to turn the copy into a document in `campaigns/`, or build it in the editor. Audiences start as free text in each block's `ruleset` ("US/Canada/UK folks who haven't paid").
 2. **Review and tweak** in the editor: the live preview, the themes, and Preview as.
 3. **Settle audiences with Claude.** It matches each free-text ruleset to facets in `iterable/facets.json` by meaning, asks you to confirm, and proposes new facets (from `fields.md`) only when none fit. Nothing is settled or approved without you.
-4. **Build for Iterable.** Claude runs `email.js`, which gives plain HTML with `<!--audience …-->` markers, and converts the markers into Iterable Handlebars from the approved facets. The result goes in `out/<campaign>.iterable.html`.
+4. **Build for Iterable.** Claude runs `email.js`, which gives plain HTML with `<!--audience …-->` markers, and converts the markers into Iterable Handlebars from the approved facets. The result goes in `out/iterable/<campaign>.html`.
 5. **Send to Iterable and proof.** Paste the file into Iterable's template editor and send proofs to test users. Pushing through Iterable's API is planned but not set up yet.
 
 The procedures Claude follows for steps 3 and 4 are in [`docs/agents.md`](https://github.com/infoentropy/emails/blob/master/docs/agents.md) in the tool repo.
