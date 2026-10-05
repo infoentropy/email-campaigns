@@ -18,5 +18,10 @@
     "source_sha256": "1918b169b0f5223e1cec3e99deba86d9579ed1e843e3d502953924ee3e29c0c7",
     "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
     "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-11-fiber-uppercut-jai-birthday": {
+    "source_sha256": "2880fd671612d082e0adb3157864e7db3b6beaf8c2b34ac430d1e57978ee7d3f",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
   }
 }
