@@ -1,0 +1,22 @@
+{
+  "2026-10-fiber-uppercut-halloween": {
+    "source_sha256": "7d598ffc4191a6c6eb0d79fb4d2a0c71aa978265375674f11615bb85d922f5a7",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-10-fiber-uppercut": {
+    "source_sha256": "b1ab0dfde32ecfa64e2633746bee6a64e1be2442c6269d86572aa7b50177fb89",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-10-sleep-stories": {
+    "source_sha256": "8ada725b4b5827edd62ead1556b84bc1e28fdd7aed444e4741b13de2a1b41e4b",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-11-fiber-uppercut-election-tariffs": {
+    "source_sha256": "1918b169b0f5223e1cec3e99deba86d9579ed1e843e3d502953924ee3e29c0c7",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  }
+}
