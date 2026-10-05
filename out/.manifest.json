@@ -23,5 +23,25 @@
     "source_sha256": "2880fd671612d082e0adb3157864e7db3b6beaf8c2b34ac430d1e57978ee7d3f",
     "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
     "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-11-fiber-uppercut-black-friday": {
+    "source_sha256": "6557206bc6b96c48742e0a09ec2ac2f2c0b4aa6dbab65faa3c07582ee4fc44e5",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-11-fiber-uppercut-cyber-monday": {
+    "source_sha256": "53cf11076ced60709199902c1818abee12e5a456f19b3db66397770722a4b142",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-12-fiber-uppercut-boxing-day": {
+    "source_sha256": "dd8846dbb7942607509da8a40059ad2ead6c7d2a694b6d79373653f4e8d55af5",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
+  },
+  "2026-12-fiber-uppercut-christmas": {
+    "source_sha256": "7eca43a094f489c5cf148c2d2ce07783f79f5332930e521c894ae4fe191b79f2",
+    "facets_sha256": "d13acdd186491bc5e7f26c267e3e3024a5ea3c0f8575ed6249650b3ec87b9235",
+    "tool_commit": "e19c0821bdbb07dd1ef3ad73f8d182d5023f1855"
   }
 }
